@@ -4,7 +4,6 @@
     --crema: #F2E8CF;
     --amarillo: #FFE875;
     --texto: #3a2f2a;
-
     --font-heading: 'Savate', serif;
     --font-body: 'Albert Sans', sans-serif;
 }
@@ -149,17 +148,15 @@ img,
 }
 
 
-
 /* SECCION HERO */
 .hero-section {
     display: flex;
     flex-direction: row;
-    /* Escritorio por defecto */
-    min-height: 90vh;
+    min-height: 90vh;     /* Escritorio por defecto */
     background-color: var(--rojo);
     color: var(--crema);
-    padding-top: 80px;
-    /* Espacio para el encabezado */
+    padding-top: 80px; /* Espacio para el encabezado */
+   
 }
 
 .hero-content {
@@ -210,30 +207,30 @@ img,
     justify-content: center;
 }
 
-/* SECCION FILOSOFIA */
-.philosophy-section {
+/* SECCION DOS */
+.segunda-section {
     display: flex;
     padding: 5rem 5%;
     gap: 4rem;
     align-items: center;
 }
 
-.philosophy-image {
+.segunda-image {
     flex: 1;
 }
 
-.philosophy-content {
+.segunda-content {
     flex: 1;
 }
 
-.philosophy-content h2 {
+.segunda-content h2 {
     color: var(--rojo);
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
-.philosophy-content p {
+.segunda-content p {
     margin-bottom: 2rem;
 }
 
@@ -259,8 +256,6 @@ img,
     width: 30px;
     height: 90px;
 }
-
-/* Cuello de jarrón */
 
 /* talleres seccion */
 .workshops-section {
@@ -299,8 +294,7 @@ img,
 
 .workshops-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
     gap: 2rem;
 }
 
@@ -492,8 +486,7 @@ img,
     transform: scale(0.96);
 }
 
-.pieza.visible {
-    /* estado visible */
+.pieza.visible {/* estado visible */
     opacity: 1;
     transform: translateX(0) scale(1);
 }
